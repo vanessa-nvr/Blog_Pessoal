@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="fontecorpo">
         <ul class="navbar-nav mi-auto d-flex align-items-center">
             <li class="nav-item active">
                 <img src="https://i.pinimg.com/474x/c8/b0/21/c8b021652234299e3a0ca5e42b7200ab.jpg" alt="Imagem do User"
@@ -26,9 +26,10 @@
 
 
         <ul class="navbar-nav ms-auto d-flex align-items-center">
-            <li class="nav-item me-3">
-                <a class="m-0 font-weight-bold text-white fs-16" style="text-decoration:none">Sair <i class="fa fa-sign-out"
-                        aria-hidden="true"></i></a>
+            <li class="nav-item pl-3">
+                <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out"
+                        aria-hidden="true"></i>
+                </a>
             </li>
         </ul>
 

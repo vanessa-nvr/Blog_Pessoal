@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+
+#img-bg{
+    background-image: url('https://pbs.twimg.com/media/D8jEctSU0AE8aNY?format=jpg&name=large');
+
+    min-height: 753px;  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#fonte {
+    font-family: 'Press Start 2P', cursive;
+}
